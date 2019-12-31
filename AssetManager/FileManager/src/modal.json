@@ -1,0 +1,42 @@
+{
+    "mod_goods": {
+        "hb.obj": "E:/media/obj/hb.obj", 
+        "main.obj": "E:/media/obj/main.obj", 
+        "ground.obj": "E:/media/obj/ground.obj", 
+        "folk.obj": "E:/media/obj/folk.obj", 
+        "river.obj": "E:/media/obj/river.obj", 
+        "river_high.obj": "E:/media/obj/river_high.obj"
+    }, 
+    "mod_other": {
+        "coal.obj": "E:/media/obj/coal.obj", 
+        "hb.obj": "E:/media/obj/hb.obj", 
+        "ground_high.obj": "E:/media/obj/ground_high.obj", 
+        "folk.obj": "E:/media/obj/folk.obj", 
+        "riverLow.obj": "E:/media/obj/riverLow.obj", 
+        "river.obj": "E:/media/obj/river.obj", 
+        "main2.obj": "E:/media/obj/main2.obj"
+    }, 
+    "mod_men": {
+        "coal.obj": "E:/media/obj/coal.obj", 
+        "hb.obj": "E:/media/obj/hb.obj", 
+        "ground_high.obj": "E:/media/obj/ground_high.obj", 
+        "ground.obj": "E:/media/obj/ground.obj", 
+        "main.obj": "E:/media/obj/main.obj", 
+        "folk.obj": "E:/media/obj/folk.obj", 
+        "riverLow.obj": "E:/media/obj/riverLow.obj", 
+        "river.obj": "E:/media/obj/river.obj", 
+        "river_high.obj": "E:/media/obj/river_high.obj"
+    }, 
+    "mod_sence": {
+        "coal.obj": "E:/media/obj/coal.obj", 
+        "ground_high.obj": "E:/media/obj/ground_high.obj", 
+        "ground.obj": "E:/media/obj/ground.obj", 
+        "main.obj": "E:/media/obj/main.obj", 
+        "folk.obj": "E:/media/obj/folk.obj", 
+        "river.obj": "E:/media/obj/river.obj", 
+        "main2.obj": "E:/media/obj/main2.obj", 
+        "111.obj": "E:/media/obj/111.obj", 
+        "river_high.obj": "E:/media/obj/river_high.obj", 
+        "mantou.obj": "E:/media/obj/mantou.obj"
+    }
+}

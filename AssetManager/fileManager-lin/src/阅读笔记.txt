@@ -1,0 +1,11 @@
+实现点击模型，打开文件，把文件加载进模型类：
+点击模型的时候吧ManagerWindow.childWidget换成模型类的实例。
+
+最开始保存信息的方式：
+打开文件的时候，调用浏览器类里的open函数，把文件名字用参数传进去，该函数里写入json文件。
+
+点击不同的按钮，传给loadPicWin不同的windowName，在loadPicWin函数里面关闭旧的childWidget，
+用新的windowName创建新的childName。用childName来判断在哪一类里。
+
+
+思路：

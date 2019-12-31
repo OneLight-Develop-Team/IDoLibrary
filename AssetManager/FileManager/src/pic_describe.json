@@ -1,0 +1,17 @@
+{
+    "pic_other": {
+        "img1.jpg": "\u5934\u50cf\n", 
+        "img8.jpg": "img8\n"
+    }, 
+    "pic_goods": {}, 
+    "pic_sence": {}, 
+    "pic_men": {
+        "img15.jpg": "\u7f29\u653e", 
+        "img7.jpg": "\u732b\n", 
+        "img14.jpg": "\u84dd\u8272   ", 
+        "img19.jpg": "\u7ea2\u8272", 
+        "img2.jpg": "\u5915\u9633\n", 
+        "img1.jpg": "\u8fd9\u662f\u6211\u7684\u5934\u50cf\uff01\uff01\uff01\n"
+    }, 
+    "pic_texture": {}
+}
