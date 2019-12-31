@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Win</class>
+ <widget class="QWidget" name="Main_Win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>450</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>插件</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QTabWidget" name="Tab_Widget">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>约束选择</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_4">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>406</width>
+            <height>509</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QPushButton" name="NamespaceEditor_BTN">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(0, 170, 255)</string>
+             </property>
+             <property name="text">
+              <string>打开Namespace Editor</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Hypershade_BTN">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(0, 170, 255)</string>
+             </property>
+             <property name="text">
+              <string>打开Hypershade</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Alembic_Import_BTN">
+             <property name="styleSheet">
+              <string notr="true">background-color:rgb(0, 170, 255)</string>
+             </property>
+             <property name="text">
+              <string>Alembic 导入</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Export_Toggle">
+             <property name="text">
+              <string>▼alembic导出</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="Export_Layout" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
+              <property name="rightMargin">
+               <number>20</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Cnvert_BTN">
+                <property name="toolTip">
+                 <string>将选择模型的材质信息转换为面组</string>
+                </property>
+                <property name="statusTip">
+                 <string>将选择模型的材质信息转换为面组</string>
+                </property>
+                <property name="whatsThis">
+                 <string>将选择模型的材质信息转换为面组</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(117, 175, 0)</string>
+                </property>
+                <property name="text">
+                 <string>按面给材质</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Transfer_BTN">
+                <property name="toolTip">
+                 <string>选择两个物体，传递材质。</string>
+                </property>
+                <property name="statusTip">
+                 <string>选择两个物体，传递材质。</string>
+                </property>
+                <property name="whatsThis">
+                 <string>选择两个物体，传递材质。</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(117, 175, 0)</string>
+                </property>
+                <property name="text">
+                 <string>模型材质传递</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Convert_Toggle">
+             <property name="text">
+              <string>▼材质转换</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="Convert_Layout" native="true">
+             <layout class="QGridLayout" name="gridLayout_2">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
+              <property name="rightMargin">
+               <number>20</number>
+              </property>
+              <item row="0" column="1">
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                 <widget class="QCheckBox" name="Verbose_CB">
+                  <property name="text">
+                   <string>Verbose</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="NM__CB">
+                  <property name="text">
+                   <string>No Normals</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="Render_CB">
+                  <property name="styleSheet">
+                   <string notr="true">font:bold</string>
+                  </property>
+                  <property name="text">
+                   <string>Renderable Only</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="Namespace_CB">
+                  <property name="styleSheet">
+                   <string notr="true">font:bold</string>
+                  </property>
+                  <property name="text">
+                   <string>Strip Namespaces</string>
+                  </property>
+                  <property name="checked">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="UV_CB">
+                  <property name="text">
+                   <string>uv write</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="Color_CB">
+                  <property name="text">
+                   <string>Write Color sets</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="Face_CB">
+                  <property name="styleSheet">
+                   <string notr="true">font:bold</string>
+                  </property>
+                  <property name="text">
+                   <string>Write Face sets</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="WS__CB">
+                  <property name="text">
+                   <string>World space</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="Vis__CB">
+                  <property name="text">
+                   <string>Write Visibility</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="0" colspan="3">
+               <widget class="QPushButton" name="Alembic_Export_BTN">
+                <property name="styleSheet">
+                 <string notr="true">background-color:rgb(117, 175, 0)</string>
+                </property>
+                <property name="text">
+                 <string>alembic导出当前选择选项</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>插件设置</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <widget class="QScrollArea" name="scrollArea_3">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>410</width>
+            <height>299</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <widget class="QPushButton" name="Window_Setting_Toggle">
+             <property name="text">
+              <string>▼窗口设置</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="Window_Setting_Layout" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
+              <property name="rightMargin">
+               <number>20</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Maya_Dock">
+                <property name="text">
+                 <string>dock</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Maya_Undock">
+                <property name="text">
+                 <string>undock</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Maya_Workspace">
+                <property name="text">
+                 <string>workspace</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Attribute_Setting_Toggle">
+             <property name="font">
+              <font>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>▼设置记录</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="Attribute_Setting_Layout" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
+              <property name="topMargin">
+               <number>9</number>
+              </property>
+              <property name="rightMargin">
+               <number>20</number>
+              </property>
+              <property name="bottomMargin">
+               <number>9</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="Default_Setting">
+                <property name="text">
+                 <string>还原默认设置</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_30">
+                <item>
+                 <widget class="QPushButton" name="Win_SaveJSON_DIR">
+                  <property name="text">
+                   <string>保存路径</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="Win_SaveJSON_Label">
+                  <property name="text">
+                   <string>保存路径</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="Win_SaveJSON_LE"/>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Win_SaveJSON_Browse">
+                  <property name="text">
+                   <string>选择路径</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Win_SaveJSON">
+                <property name="text">
+                 <string>保存JSON设置</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_31">
+                <item>
+                 <widget class="QPushButton" name="Win_LoadJSON_DIR">
+                  <property name="text">
+                   <string>读取路径</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="Win_LoadJSON_Label">
+                  <property name="text">
+                   <string>读取路径</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="Win_LoadJSON_LE"/>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Win_LoadJSON_Browse">
+                  <property name="text">
+                   <string>选择路径</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Win_LoadJSON">
+                <property name="text">
+                 <string>读取JSON设置</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>392</width>
+               <height>155</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

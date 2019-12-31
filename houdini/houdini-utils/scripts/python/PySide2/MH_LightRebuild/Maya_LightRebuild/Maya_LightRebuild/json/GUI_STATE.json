@@ -1,0 +1,9 @@
+{
+    "AreaLight_CB": true, 
+    "PointLight_CB": true, 
+    "aiSkyDomeLight_CB": true, 
+    "SpotLight_CB": true, 
+    "DOCK": "undock", 
+    "DirectionalLight_CB": true, 
+    "aiAreaLight_CB": true
+}

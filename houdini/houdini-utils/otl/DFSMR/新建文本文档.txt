@@ -1,0 +1,33 @@
+10个HDA：(20181123)
+branch level
+调整正则匹配
+
+measure branch length
+不用调整
+
+tree to curve
+不用调整
+
+post tree curve
+线头尾相反
+线点数resample
+搜索点云多少以及半径
+
+tree growth solver
+生长节奏控制
+
+tree rig
+point deform 参数调整
+extra_pscale调整
+
+leaf pre process
+调整aim和up的指向
+
+make_initial_state
+不用调整
+
+calc_instance_scale_relative_to_source_geo
+调整实例叶子的大小手动补偿值
+
+follow_tree_anim_and_calc_rf_attr
+不用调整

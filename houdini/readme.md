@@ -1,0 +1,2 @@
+hip-library文件夹存放hip文件
+houdini-utils文件夹存放otl，python，vex等等的预设以及资产

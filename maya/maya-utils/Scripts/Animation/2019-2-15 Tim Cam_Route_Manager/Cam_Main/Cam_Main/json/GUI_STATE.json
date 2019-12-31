@@ -1,0 +1,190 @@
+{
+    "Cam_Base": {
+        "Attr": {
+            "Add_CamGrp_LE": "|Cam:cam_grp", 
+            "Add_Crv_LE": "|CAD01", 
+            "Add_Loc_LE": "|midCam", 
+            "Add_Motion_Path_LE": "Cam:MYZZ_ZongHe_1113_YJY_:pasted__motionPath1", 
+            "Name": "|Cam:cam_grp"
+        }
+    }, 
+    "Cam_Item": {
+        "|sc01_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc01_cam", 
+                "Add_Crv_LE": "|sc01_cam|Path", 
+                "Add_Loc_LE": "|sc01_cam|sc01", 
+                "Add_Motion_Path_LE": "sc01_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc01_cam"
+        }, 
+        "|sc02_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc02_cam", 
+                "Add_Crv_LE": "|sc02_cam|Path", 
+                "Add_Loc_LE": "|sc02_cam|sc02", 
+                "Add_Motion_Path_LE": "sc02_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc02_cam"
+        }, 
+        "|sc04_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc04_cam", 
+                "Add_Crv_LE": "|sc04_cam|Path", 
+                "Add_Loc_LE": "|sc04_cam|sc04", 
+                "Add_Motion_Path_LE": "sc04_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc04_cam"
+        }, 
+        "|sc05_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc05_cam", 
+                "Add_Crv_LE": "|sc05_cam|Path", 
+                "Add_Loc_LE": "|sc05_cam|sc05", 
+                "Add_Motion_Path_LE": "sc05_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc05_cam"
+        }, 
+        "|sc06_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc06_cam", 
+                "Add_Crv_LE": "|sc06_cam|Path", 
+                "Add_Loc_LE": "|sc06_cam|sc06", 
+                "Add_Motion_Path_LE": "sc06_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc06_cam"
+        }, 
+        "|sc07_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc07_cam", 
+                "Add_Crv_LE": "|sc07_cam|Path", 
+                "Add_Loc_LE": "|sc07_cam|sc07", 
+                "Add_Motion_Path_LE": "sc07_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc07_cam"
+        }, 
+        "|sc08_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc08_cam", 
+                "Add_Crv_LE": "|sc08_cam|Path", 
+                "Add_Loc_LE": "|sc08_cam|sc08", 
+                "Add_Motion_Path_LE": "sc08_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc08_cam"
+        }, 
+        "|sc09_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc09_cam", 
+                "Add_Crv_LE": "|sc09_cam|Path", 
+                "Add_Loc_LE": "|sc09_cam|sc09", 
+                "Add_Motion_Path_LE": "sc09_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc09_cam"
+        }, 
+        "|sc10_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc10_cam", 
+                "Add_Crv_LE": "|sc10_cam|Path", 
+                "Add_Loc_LE": "|sc10_cam|sc10", 
+                "Add_Motion_Path_LE": "sc10_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc10_cam"
+        }, 
+        "|sc11_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc11_cam", 
+                "Add_Crv_LE": "|sc11_cam|Path", 
+                "Add_Loc_LE": "|sc11_cam|sc11", 
+                "Add_Motion_Path_LE": "sc11_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc11_cam"
+        }, 
+        "|sc12_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc12_cam", 
+                "Add_Crv_LE": "|sc12_cam|Path", 
+                "Add_Loc_LE": "|sc12_cam|sc12", 
+                "Add_Motion_Path_LE": "sc12_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc12_cam"
+        }, 
+        "|sc13_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc13_cam", 
+                "Add_Crv_LE": "|sc13_cam|Path", 
+                "Add_Loc_LE": "|sc13_cam|sc13", 
+                "Add_Motion_Path_LE": "sc13_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc13_cam"
+        }, 
+        "|sc14_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc14_cam", 
+                "Add_Crv_LE": "|sc14_cam|Path", 
+                "Add_Loc_LE": "|sc14_cam|sc14", 
+                "Add_Motion_Path_LE": "sc14_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc14_cam"
+        }, 
+        "|sc15_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc15_cam", 
+                "Add_Crv_LE": "|sc15_cam|Path", 
+                "Add_Loc_LE": "|sc15_cam|sc15", 
+                "Add_Motion_Path_LE": "sc15_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc15_cam"
+        }, 
+        "|sc16_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc16_cam", 
+                "Add_Crv_LE": "|sc16_cam|Path", 
+                "Add_Loc_LE": "|sc16_cam|sc16", 
+                "Add_Motion_Path_LE": "sc16_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc16_cam"
+        }, 
+        "|sc18_cam": {
+            "Attr": {
+                "Add_CamGrp_LE": "|sc18_cam", 
+                "Add_Crv_LE": "|sc18_cam|Path", 
+                "Add_Loc_LE": "|sc18_cam|sc18", 
+                "Add_Motion_Path_LE": "sc18_motionPath", 
+                "End_Time_SB": 0, 
+                "Strat_Time_SB": 0
+            }, 
+            "Cam": "|sc18_cam"
+        }
+    }, 
+    "DOCK": "undock"
+}

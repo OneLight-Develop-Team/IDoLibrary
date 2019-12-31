@@ -1,0 +1,190 @@
+{
+    "DOCK": "undock",
+    "Cam_Item": {
+      "|sc01_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc01_motionPath",
+          "Add_Crv_LE": "|sc01_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc01_cam|sc01",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc01_cam"
+        },
+        "Cam": "|sc01_cam"
+      },
+      "|sc02_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc02_motionPath",
+          "Add_Crv_LE": "|sc02_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc02_cam|sc02",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc02_cam"
+        },
+        "Cam": "|sc02_cam"
+      },
+      "|sc04_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc04_motionPath",
+          "Add_Crv_LE": "|sc04_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc04_cam|sc04",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc04_cam"
+        },
+        "Cam": "|sc04_cam"
+      },
+      "|sc05_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc05_motionPath",
+          "Add_Crv_LE": "|sc05_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc05_cam|sc05",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc05_cam"
+        },
+        "Cam": "|sc05_cam"
+      },
+      "|sc06_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc06_motionPath",
+          "Add_Crv_LE": "|sc06_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc06_cam|sc06",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc06_cam"
+        },
+        "Cam": "|sc06_cam"
+      },
+      "|sc07_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc07_motionPath",
+          "Add_Crv_LE": "|sc07_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc07_cam|sc07",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc07_cam"
+        },
+        "Cam": "|sc07_cam"
+      },
+      "|sc08_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc08_motionPath",
+          "Add_Crv_LE": "|sc08_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc08_cam|sc08",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc08_cam"
+        },
+        "Cam": "|sc08_cam"
+      },
+      "|sc09_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc09_motionPath",
+          "Add_Crv_LE": "|sc09_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc09_cam|sc09",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc09_cam"
+        },
+        "Cam": "|sc09_cam"
+      },
+      "|sc10_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc10_motionPath",
+          "Add_Crv_LE": "|sc10_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc10_cam|sc10",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc10_cam"
+        },
+        "Cam": "|sc10_cam"
+      },
+      "|sc11_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc11_motionPath",
+          "Add_Crv_LE": "|sc11_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc11_cam|sc11",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc11_cam"
+        },
+        "Cam": "|sc11_cam"
+      },
+      "|sc12_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc12_motionPath",
+          "Add_Crv_LE": "|sc12_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc12_cam|sc12",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc12_cam"
+        },
+        "Cam": "|sc12_cam"
+      },
+      "|sc13_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc13_motionPath",
+          "Add_Crv_LE": "|sc13_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc13_cam|sc13",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc13_cam"
+        },
+        "Cam": "|sc13_cam"
+      },
+      "|sc14_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc14_motionPath",
+          "Add_Crv_LE": "|sc14_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc14_cam|sc14",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc14_cam"
+        },
+        "Cam": "|sc14_cam"
+      },
+      "|sc15_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc15_motionPath",
+          "Add_Crv_LE": "|sc15_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc15_cam|sc15",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc15_cam"
+        },
+        "Cam": "|sc15_cam"
+      },
+      "|sc16_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc16_motionPath",
+          "Add_Crv_LE": "|sc16_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc16_cam|sc16",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc16_cam"
+        },
+        "Cam": "|sc16_cam"
+      },
+      "|sc18_cam": {
+        "Attr": {
+          "Add_Motion_Path_LE": "sc18_motionPath",
+          "Add_Crv_LE": "|sc18_cam|Path",
+          "End_Time_SB": 0,
+          "Add_Loc_LE": "|sc18_cam|sc18",
+          "Strat_Time_SB": 0,
+          "Add_CamGrp_LE": "|sc18_cam"
+        },
+        "Cam": "|sc18_cam"
+      }
+    },
+    "Cam_Base": {
+      "Attr": {
+        "Add_Motion_Path_LE": "Cam:MYZZ_ZongHe_1113_YJY_:pasted__motionPath1",
+        "Name": "|Cam:cam_grp",
+        "Add_Crv_LE": "|CAD01",
+        "Add_Loc_LE": "|midCam",
+        "Add_CamGrp_LE": "|Cam:cam_grp"
+      }
+    }
+  }

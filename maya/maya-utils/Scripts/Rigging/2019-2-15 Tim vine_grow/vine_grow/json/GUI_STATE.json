@@ -1,0 +1,52 @@
+{
+    "Window_Setting_Toggle_Check": true, 
+    "End_IK_ColorSlider": 19, 
+    "End_JNT_Text": "", 
+    "Character_Ctrl_ColorBtn": [
+        0.0, 
+        255.0, 
+        0.0
+    ], 
+    "Curve_Span_Num": "15", 
+    "Geo_Name_Text": "TengMan", 
+    "Start_Ctrl_ColorBtn": [
+        100.0, 
+        220.0, 
+        255.0
+    ], 
+    "Z_RadioButton": false, 
+    "IK_JNT_Name_Text": "ganJoint", 
+    "X_RadioButton": false, 
+    "Rig_Obj_Toggle_Check": true, 
+    "Character_Ctrl_Text": "Character", 
+    "JNT_Setting_Toggle_Check": true, 
+    "Start_Ctrl_ColorSlider": 20, 
+    "Curve_Name_Text": "gan", 
+    "Start_JNT_Text": "", 
+    "Delete_CheckBox": true, 
+    "Start_Ctrl_Text": "main2", 
+    "IK_JNT_Num": "5", 
+    "Rig_Generate_Toggle_Check": true, 
+    "IK_CTRL_ColorSlider": 5, 
+    "End_IK_ColorBtn": [
+        67.0, 
+        255.0, 
+        163.0
+    ], 
+    "Namespace_Toggle_Check": true, 
+    "Character_Ctrl_ColorSlider": 15, 
+    "Y_RadioButton": true, 
+    "End_IK_Text": "main", 
+    "IK_CTRL_ColorBtn": [
+        0.0, 
+        4.0, 
+        96.0
+    ], 
+    "Rig_Obj_Text": "", 
+    "DOCK": "workspace", 
+    "Main_JNT_Name_Text": "gan_joint", 
+    "Loc_Generate_Toggle_Check": true, 
+    "Tab_Widget": 0, 
+    "IK_CTRL_Name_Text": "gan_ctrl", 
+    "Main_JNT_Num": "20"
+}

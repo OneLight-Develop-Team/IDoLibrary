@@ -1,0 +1,17 @@
+{
+    "Window_Setting_Toggle_Check": false, 
+    "Attribute_Setting_Toggle_Check": false, 
+    "NM__CB": true, 
+    "DOCK": "undock", 
+    "Vis__CB": false, 
+    "UV_CB": true, 
+    "Color_CB": false, 
+    "Tab_Widget": 0, 
+    "Convert_Toggle_Check": false, 
+    "Face_CB": true, 
+    "Verbose_CB": true, 
+    "Render_CB": true, 
+    "WS__CB": false, 
+    "Namespace_CB": true, 
+    "Export_Toggle_Check": false
+}
