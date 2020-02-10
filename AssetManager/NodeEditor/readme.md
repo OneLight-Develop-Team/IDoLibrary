@@ -9,4 +9,4 @@ python example.py
 ![image](https://github.com/OneLight-Develop-Team/IDoLibrary/blob/master/AssetManager/NodeEditor/class-view.png)
 
 截图：
-i[image](https://github.com/OneLight-Develop-Team/IDoLibrary/blob/master/AssetManager/NodeEditor/screenshot.png)
+![image](https://github.com/OneLight-Develop-Team/IDoLibrary/blob/master/AssetManager/NodeEditor/screenshot.png)
